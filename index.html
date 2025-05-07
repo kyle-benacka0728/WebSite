@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="m-0 p-0">
+    <header class="font-mono">
+        <div id="welcome-bar" class="bg-[#3C908D] text-white flex flex-col sm:flex-row justify-center items-center text-4xl p-4 font-bold">
+            <img src="assets/company-logo.png" alt="company logo 1" width="90" height="100" class="hidden lg:block rotate-90 w-[90px] h-[100px] mx-90 rounded">
+            <h1 class="pt-12 px-10 sm:px-0">Welcome!</h1>
+            <img src="assets/company-logo.png" alt="company logo 2" width="90" height="100" class="hidden lg:block rotate-90 w-[90px] h-[100px] mx-90 rounded">
+        </div>
+        <div id="navbar" class="bg-[#2E2F2F] text-white p-[8px] flex flex-col items-center gap-3 lg:flex-row gap-0 justify-evenly">
+            <a href="products.html" target="_self" class="bg-[#3C908D] rounded-full p-[5px] w-45 text-center underline">Products</a>
+            <a href="index.html" target="_self" class="bg-[#3C908D] rounded-full p-[5px] w-45 text-center underline hidden md:inline">Home</a>
+            <a href="contact.html" target="_self" class="bg-[#3C908D] rounded-full p-[5px] w-45 text-center underline">Contact</a>
+        </div>
+    </header>
+    <section id="welcome-body-container" class="flex flex-col lg:flex-row -mt-5 font-sans font-light">
+        <div id="image-container" class="pl-10 pt-8">
+            <img src="assets/Adobe Express - file.png" alt="welcome image" class="w-full h-auto rounded-xs">
+            <img src="assets/people.png" alt="people" class="hidden lg:block w-full h-auto rounded=xs">
+        </div>
+        <div id="welcome-text" class="text-[20px] w-full lg:w-1/2 lg:px-12">
+            <p class="pt-12">
+                Welcome to CompanyIncorporated.com! We're proud to have you on our site to 
+                offer you our goods. We have top of the line technological equipment to offer with 
+                a product quality guarantee!
+            </p>
+            <p class="pt-12">
+                You can navigate to our Products page to see of the goods 
+                we offer ranging from computers to simpler electronics. You can also reach out to our 
+                quality assurance team for help with your products through the Contact page! 
+                Thank you for shopping at Company Incorporated!
+            </p>
+        </div>
+    </section>
+    <footer class="bg-[#2E2F2F] text-white text-sm text-left p-3 fixed bottom-0 w-full mt-10 font-bold font-mono">
+        <p class="pr-3 pl-1 pt-3 pb-3">
+            &copy;Company Incorporated
+        </p>
+    </footer>
+</body>
+</html>
